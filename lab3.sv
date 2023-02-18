@@ -48,7 +48,7 @@ module lab3 (
         .startVal(countStart),
         .enab(timerCntEn),
         .rst(timerRst),
-        .clk);
+        .clk(clk));                // edited
 
    // TODO : Using the timerCnt example implement the rest of the counters and design  
 
@@ -61,12 +61,12 @@ module lab3 (
    counterDn #(6) 
        
        Cnt  (
-        .val(),
-        .zero(),
-        .startVal(),     
-        .enab(),
-        .rst(),
-        .clk);
+        .val(timerVal),            // not sure
+        .zero(uTimerOut),
+        .startVal(countStart),     // not sure
+        .enab(uTimerCntEn),
+        .rst(uTimerRst),
+        .clk(clk));
 
 
    //

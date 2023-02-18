@@ -73,18 +73,27 @@ module simonStmach (
       simonsTurn = 0;
       fini = 0;
       
-     unique case (curState)
+    unique case (curState)
 
 /* ************* Fill in the case statements ************** */
-       Idle : begin
-       // what is next_state value, what are the conditions to update it?
-       // what other counters should be checked and updated here? 
-       // Refer to instructions document and the state diagram you created for checkpoint
-       end
-/*Similar to Idle, think of the logic to be added in other states(check below) 
+      Idle : begin
+        // what is next_state value, what are the conditions to update it?
+        // what other counters should be checked and updated here? 
+        // Refer to instructions document and the state diagram you created for checkpoint
+        rndSeqRst = 1;
+        timerRst = 1;
+        timerCntEn = 1;
+        if (timerGtN) 
+          nxtState = IdlePause;
+        else 
+          nxtState = curState;
+      end
+//Similar to Idle, think of the logic to be added in other states(check below) 
 
-       IdlePause: begin
-       end
+      IdlePause: begin
+        
+
+      end
 
        Play: begin
 
@@ -92,7 +101,7 @@ module simonStmach (
 
        PlayPause: begin
        end
-
+/*
        Rec: begin
        end
        
