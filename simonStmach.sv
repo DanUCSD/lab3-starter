@@ -82,8 +82,12 @@ module simonStmach (
         // Refer to instructions document and the state diagram you created for checkpoint
         rndSeqRst = 1;
         timerRst = 1;
+        seqCntRst = 1;
+        uTimerRst = 1;
+        scoreCntRst = 1;
         timerCntEn = 1;
-        if (timerGtN) 
+        lightAllSl = 1;
+        if (!timerGtN) 
           nxtState = IdlePause;
         else 
           nxtState = curState;
@@ -91,7 +95,13 @@ module simonStmach (
 //Similar to Idle, think of the logic to be added in other states(check below) 
 
       IdlePause: begin
+        lightAllSl = 0;
+        timerCntEn = 1;
         
+        if (timerOut)
+          nxtState = Play;
+        else
+          nxtState = curState;
 
       end
 

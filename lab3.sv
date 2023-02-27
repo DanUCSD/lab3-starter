@@ -27,7 +27,18 @@ module lab3 (
    logic timerRst;
 
    // TODO : Declare the required signals 
-
+     logic uTimerCntEn;
+     logic uTimerRst;
+     logic scoreCntEn;
+     logic scoreCntRst;
+     logic rndSeqEn;
+     logic rndSeqRst;
+     logic seqCntEn;
+     logic seqCntRst;
+     logic lightAllSl;
+     logic lightRndSl;
+     logic simonsTurn;
+     logic fini;
 
    //
    // timer
@@ -115,6 +126,12 @@ module lab3 (
   // Hint : Think of the different scenarios which will light up the lEDS
   //********Fill here ***********
 
+     always_comb begin
+          SW = lightAllSl ? 9'b1111111111 :9'b0000000000;
+          
+     
+     end
+
    // TODO: check if any switch active and how should it be used
    //********Fill here ***********
   
@@ -133,26 +150,26 @@ module lab3 (
    bcd2hex seq0 ();
 
    simonStmach statemach (
-        .fini,
-        .timerCntEn,
-        .timerRst,                
-        .uTimerCntEn,     
-        .uTimerRst,
-        .scoreCntEn,
-        .scoreCntRst,
-        .rndSeqEn,
-        .rndSeqRst,
-        .seqCntEn,
-        .seqCntRst,
-        .lightAllSl,
-        .lightRndSl,
-        .simonsTurn, 
-        .timerGtN,
-        .timerOut,
-        .uTimerOut,     
-        .seqEqScore,
-        .anySwitch,
-        .switchMatch,
-        .clk,
-        .rst);
+        .fini(fini),
+        .timerCntEn(timerCntEn),
+        .timerRst(timerRst),                
+        .uTimerCntEn(uTimerCntEn),     
+        .uTimerRst(uTimerRst),
+        .scoreCntEn(scoreCntEn),
+        .scoreCntRst(scoreCntRst),
+        .rndSeqEn(rndSeqEn),
+        .rndSeqRst(rndSeqRst),
+        .seqCntEn(seqCntEn),
+        .seqCntRst(seqCntRst),
+        .lightAllSl(lightAllSl),
+        .lightRndSl(lightRndSl),
+        .simonsTurn(simonsTurn), 
+        .timerGtN(timerGtN),
+        .timerOut(timerOut),
+        .uTimerOut(uTimerOut),     
+        .seqEqScore(seqEqScore),
+        .anySwitch(anySwitch),
+        .switchMatch(switchMatch),
+        .clk(clk),
+        .rst(rst));
 endmodule                 
