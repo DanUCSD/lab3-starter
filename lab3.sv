@@ -127,7 +127,7 @@ module lab3 (
   //********Fill here ***********
 
      always_comb begin
-          SW = lightAllSl ? 9'b1111111111 :9'b0000000000;
+          LEDR = lightAllSl ? 9'b1111111111 :9'b0000000000;
           
      
      end
