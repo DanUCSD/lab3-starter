@@ -87,41 +87,35 @@ module simonStmach (
         scoreCntRst = 1;
         timerCntEn = 1;
         lightAllSl = 1;
-        if (!timerGtN) 
-          nxtState = IdlePause;
-        else 
-          nxtState = curState;
+        nxtState = timerGtN ? curState : IdlePause;
       end
 //Similar to Idle, think of the logic to be added in other states(check below) 
 
       IdlePause: begin
-        lightAllSl = 0;
         timerCntEn = 1;
-        
-        if (timerOut)
-          nxtState = Play;
-        else
-          nxtState = curState;
-
+        nxtState = timerOut ? Idle : curState;
       end
 
-       Play: begin
+      Play: begin
+        nxtState = curState;
+      end
 
-       end
+      PlayPause: begin
+        nxtState = curState;
+      end
 
-       PlayPause: begin
-       end
-/*
-       Rec: begin
-       end
-       
-       RecWait: begin
- 
-       end
+      Rec: begin
+        nxtState = curState;
+      end
+      
+      RecWait: begin
+        nxtState = curState;
+      end
 
-       Fail: begin
-       end
-*/
+      Fail: begin
+        nxtState = curState;
+      end
+
      endcase // unique case (curState)
    end // comb
 endmodule

@@ -72,9 +72,9 @@ module lab3 (
    counterDn #(6) 
        
        Cnt  (
-        .val(timerVal),            // not sure
+        .val(),            // not sure
         .zero(uTimerOut),
-        .startVal(countStart),     // not sure
+        .startVal(),     // not sure
         .enab(uTimerCntEn),
         .rst(uTimerRst),
         .clk(clk));
@@ -90,7 +90,7 @@ module lab3 (
         .val(score),
         .wrap(),
         .enab(scoreCntEn),                   
-        .rst(scoreCntRst), .clk);
+        .rst(scoreCntRst), .clk(clk));
 
          
       
