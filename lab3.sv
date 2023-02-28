@@ -72,9 +72,9 @@ module lab3 (
    counterDn #(6) 
        
        Cnt  (
-        .val(timerVal),            // not sure
+        .val(),            // not sure
         .zero(uTimerOut),
-        .startVal(countStart),     // not sure
+        .startVal(),     // not sure
         .enab(uTimerCntEn),
         .rst(uTimerRst),
         .clk(clk));
@@ -90,7 +90,7 @@ module lab3 (
         .val(score),
         .wrap(),
         .enab(scoreCntEn),                   
-        .rst(scoreCntRst), .clk);
+        .rst(scoreCntRst), .clk(clk));
 
          
       
@@ -127,7 +127,7 @@ module lab3 (
   //********Fill here ***********
 
      always_comb begin
-          LEDR = lightAllSl ? 9'b1111111111 :9'b0000000000;
+          SW = lightAllSl ? 9'b1111111111 :9'b0000000000;
           
      
      end

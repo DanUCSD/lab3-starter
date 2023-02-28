@@ -60,22 +60,16 @@ module simonStmach (
       // the case statement when you want a value other than these defaults.
       timerCntEn = 0;
       timerRst = 0;
-		
       uTimerCntEn = 0;
       uTimerRst = 0;
-		
       scoreCntEn = 0;
       scoreCntRst = 0;
-		
       rndSeqEn = 0;
       rndSeqRst = 0;
-		
       seqCntEn = 0;
       seqCntRst = 0;
-		
       lightAllSl = 0;
       lightRndSl = 0;
-		
       simonsTurn = 0;
       fini = 0;
       
@@ -86,82 +80,42 @@ module simonStmach (
         // what is next_state value, what are the conditions to update it?
         // what other counters should be checked and updated here? 
         // Refer to instructions document and the state diagram you created for checkpoint
-        timerCntEn = 1;
-        timerRst = 1;
-		  
-        uTimerRst = 1;
-
-        scoreCntRst = 1;
-
         rndSeqRst = 1;
-		  
+        timerRst = 1;
         seqCntRst = 1;
-		  
+        uTimerRst = 1;
+        scoreCntRst = 1;
+        timerCntEn = 1;
         lightAllSl = 1;
-		  		  
-        if (!timerGtN) 
-          nxtState = IdlePause;
-        else 
-          nxtState = curState;
+        nxtState = timerGtN ? curState : IdlePause;
       end
 //Similar to Idle, think of the logic to be added in other states(check below) 
 
       IdlePause: begin
-		  timerCntEn = 1;
-
-        if (timerOut)
-          nxtState = Play;
-        else
-          nxtState = curState;
+        timerCntEn = 1;
+        nxtState = timerOut ? Idle : curState;
       end
 
-       Play: begin
-         timerCntEn = 1;
-			timerRst = 0;
-			
-			uTimerCntEn = 0;
-			uTimerRst = 0;
-			
-			scoreCntEn = 1;
-			scoreCntRst = 0;
-			
-			rndSeqEn = 1;      // Does this enable when user plays or when simon plays?
-			rndSeqRst = 0;
-			
-			seqCntEn = 1;
-			seqCntRst = 0;
-			
-			lightAllSl = 0;
-			lightRndSl = 1;
-			
-			simonsTurn = 1;
-			fini = 0;
-			
-		  if (timerOut)
-          nxtState = Play;
-        else
-          nxtState = curState;
-			
-       end
+      Play: begin
+        nxtState = curState;
+      end
 
-       PlayPause: begin
-       end
-/*
-       Rec: begin
-       end
-       
-       RecWait: begin
- 
-       end
+      PlayPause: begin
+        nxtState = curState;
+      end
 
-       Fail: begin
-       end
-*/
+      Rec: begin
+        nxtState = curState;
+      end
+      
+      RecWait: begin
+        nxtState = curState;
+      end
+
+      Fail: begin
+        nxtState = curState;
+      end
+
      endcase // unique case (curState)
    end // comb
 endmodule
-
-      
-          
-     
-          
