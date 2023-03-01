@@ -1,5 +1,5 @@
 # vsim -pli "simfpga.vpi" -Lf 220model -Lf altera_mf_ver -Lf verilog -c -do "run -all" tb 
-# Start time: 17:07:27 on Feb 28,2023
+# Start time: 19:40:40 on Feb 28,2023
 # Loading work.tb
 # Loading work.slowclk
 # Loading work.slowrst
@@ -14,27 +14,25 @@
 # Loading work.ps2_data_out
 # Loading work.ps2_command_in
 # ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'val'. The port definition is at: ../counter.sv(7).
-#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/sequenceCnt File: ../lab3.sv Line: 116
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (6) for port 'bcd'. The port definition is at: ../bcd2hex.sv(14).
-#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/debug File: ../lab3.sv Line: 149
+#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/sequenceCnt File: ../lab3.sv Line: 117
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'bcd'. The port definition is at: ../bcd2hex.sv(14).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/debug0 File: ../lab3.sv Line: 161
 # ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'sc1'.  Expected 2, found 0.
-#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/sc1 File: ../lab3.sv Line: 163
-# ** Warning: (vsim-3722) ../lab3.sv(163): [TFMPC] - Missing connection for port 'hexSeg'.
-# ** Warning: (vsim-3722) ../lab3.sv(163): [TFMPC] - Missing connection for port 'bcd'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/sc1 File: ../lab3.sv Line: 176
+# ** Warning: (vsim-3722) ../lab3.sv(176): [TFMPC] - Missing connection for port 'hexSeg'.
+# ** Warning: (vsim-3722) ../lab3.sv(176): [TFMPC] - Missing connection for port 'bcd'.
 # ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'sc0'.  Expected 2, found 0.
-#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/sc0 File: ../lab3.sv Line: 164
-# ** Warning: (vsim-3722) ../lab3.sv(164): [TFMPC] - Missing connection for port 'hexSeg'.
-# ** Warning: (vsim-3722) ../lab3.sv(164): [TFMPC] - Missing connection for port 'bcd'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/sc0 File: ../lab3.sv Line: 177
+# ** Warning: (vsim-3722) ../lab3.sv(177): [TFMPC] - Missing connection for port 'hexSeg'.
+# ** Warning: (vsim-3722) ../lab3.sv(177): [TFMPC] - Missing connection for port 'bcd'.
 # ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'seq1'.  Expected 2, found 0.
-#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/seq1 File: ../lab3.sv Line: 165
-# ** Warning: (vsim-3722) ../lab3.sv(165): [TFMPC] - Missing connection for port 'hexSeg'.
-# ** Warning: (vsim-3722) ../lab3.sv(165): [TFMPC] - Missing connection for port 'bcd'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/seq1 File: ../lab3.sv Line: 178
+# ** Warning: (vsim-3722) ../lab3.sv(178): [TFMPC] - Missing connection for port 'hexSeg'.
+# ** Warning: (vsim-3722) ../lab3.sv(178): [TFMPC] - Missing connection for port 'bcd'.
 # ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'seq0'.  Expected 2, found 0.
-#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/seq0 File: ../lab3.sv Line: 166
-# ** Warning: (vsim-3722) ../lab3.sv(166): [TFMPC] - Missing connection for port 'hexSeg'.
-# ** Warning: (vsim-3722) ../lab3.sv(166): [TFMPC] - Missing connection for port 'bcd'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (9) for port 'seqEqScore'. The port definition is at: ../simonStmach.sv(32).
-#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/statemach File: ../lab3.sv Line: 168
+#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/seq0 File: ../lab3.sv Line: 179
+# ** Warning: (vsim-3722) ../lab3.sv(179): [TFMPC] - Missing connection for port 'hexSeg'.
+# ** Warning: (vsim-3722) ../lab3.sv(179): [TFMPC] - Missing connection for port 'bcd'.
 # Loading ./simfpga.vpi
 # run -all
 # Time scaling: 0.0001 sim seconds per real-time second
@@ -42,8 +40,8 @@
 # 
 # Connected to server!
 # ** Note: $finish    : ../tb/tb.v(76)
-#    Time: 78155 us  Iteration: 1  Instance: /tb
+#    Time: 33160 us  Iteration: 1  Instance: /tb
 # 
 # Quitting...
-# End time: 17:07:51 on Feb 28,2023, Elapsed time: 0:00:24
-# Errors: 0, Warnings: 15
+# End time: 19:40:49 on Feb 28,2023, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 14

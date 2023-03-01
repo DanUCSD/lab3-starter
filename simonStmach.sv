@@ -83,6 +83,7 @@ module simonStmach (
 			timerCntEn = 1;
 			timerRst = rst;
 			lightAllSl = 1;
+			scoreCntRst = rst;
         nxtState = timerGtN ? curState : IdlePause;
       end
 //Similar to Idle, think of the logic to be added in other states(check below) 
@@ -90,8 +91,15 @@ module simonStmach (
       IdlePause: begin
         timerCntEn = 1;
 		  lightAllSl = 0;
-		  
+		  rndSeqRst = 1;
+		  scoreCntEn = 1;
         nxtState = timerOut ? Play : curState;
+		  if (timerOut) begin
+				nxtState = Play;
+				scoreCntEn = 0;
+		  end else begin
+				nxtState = curState;
+		  end
       end
 
       Play: begin
@@ -114,12 +122,18 @@ module simonStmach (
 			rndSeqEn = 1;
 			lightRndSl = 1;
 			simonsTurn = 1;
-			
-			nxtState = curState;
+			if (timerGtN) begin
+				nxtState = curState;
+				rndSeqEn = 0;
+			end else begin
+				nxtState = PlayPause;
+			end
       end
 
       PlayPause: begin
-        nxtState = curState;
+			timerCntEn = 1;
+			
+			nxtState = timerOut ? Play : curState;
       end
 
       Rec: begin

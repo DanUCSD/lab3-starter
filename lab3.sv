@@ -38,7 +38,7 @@ module lab3 (
 	logic lightRndSl;
 	logic simonsTurn;
 	logic fini;
-
+	
 
    //
    // timer
@@ -112,12 +112,15 @@ module lab3 (
    // What should seqEqScore be?
 	
 	wire seqWrap;  // Unused.
-   wire [8:0] seqEqScore;
+   wire seqEqScore;
+	logic [8:0] seqVal;
    counterUp #(8, 255) sequenceCnt (
-        .val(seqEqScore),
+        .val(seqVal),
         .wrap(seqWrap),
         .enab(seqCntEn),                     
         .rst(seqCntRst), .clk(clk));
+		  
+	assign seqEqScore = seqVal == score;
 
    //
    // polynomial counter
@@ -129,6 +132,7 @@ module lab3 (
         .val(rndVal),
         .seed({2'b0, SW[8:4], 1'b1}),
         // x8 + x6 + x5 + x4 + 1
+//		  .seed(8'b01000111),
         .taps(8'b1011_1000),
         .enab(rndSeqEn),
         .rst(rndSeqRst),
@@ -141,12 +145,21 @@ module lab3 (
   
   wire anySwitch;
   wire switchMatch;
+  logic [1:0] test;
+  assign lights = rndVal[4] * 2 + rndVal[2];
+  
   always_comb begin
-		LEDR[8:0] = lightAllSl ? 9'b111111111 : 9'b000000000;
+		LEDR[8:4] = lightAllSl ? 5'b11111 : 5'b00000;
+		LEDR[3] = lightAllSl ? 1 : (lightRndSl ? lights == 3 : 0);
+		LEDR[2] = lightAllSl ? 1 : (lightRndSl ? lights == 2 : 0);
+		LEDR[1] = lightAllSl ? 1 : (lightRndSl ? lights == 1 : 0);
+		LEDR[0] = lightAllSl ? 1 : (lightRndSl ? lights == 0 : 0);
 		
+
   end
  
-	bcd2hex debug (.bcd(timerVal), .hexSeg(HEX5));
+	bcd2hex debug0 (.bcd(score), .hexSeg(HEX5));
+//	bcd2hex debug1 (.bcd(rndVal[4]), .hexSeg(HEX4));
   
   // TODO: check if any switch active and how should it be used
   //********Fill here ***********
