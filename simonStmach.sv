@@ -80,24 +80,42 @@ module simonStmach (
         // what is next_state value, what are the conditions to update it?
         // what other counters should be checked and updated here? 
         // Refer to instructions document and the state diagram you created for checkpoint
-        rndSeqRst = 1;
-        timerRst = 1;
-        seqCntRst = 1;
-        uTimerRst = 1;
-        scoreCntRst = 1;
-        timerCntEn = 1;
-        lightAllSl = 1;
+			timerCntEn = 1;
+			timerRst = rst;
+			lightAllSl = 1;
         nxtState = timerGtN ? curState : IdlePause;
       end
 //Similar to Idle, think of the logic to be added in other states(check below) 
 
       IdlePause: begin
         timerCntEn = 1;
-        nxtState = timerOut ? Idle : curState;
+		  lightAllSl = 0;
+		  
+        nxtState = timerOut ? Play : curState;
       end
 
       Play: begin
-        nxtState = curState;
+//		   timerCntEn = 1;
+//			timerRst = 0;
+//			uTimerCntEn = 0;
+//			uTimerRst = 0;
+//			scoreCntEn = 1;
+//			scoreCntRst = 0;
+//			rndSeqEn = 1;
+//			rndSeqRst = 0;
+//			seqCntEn = 1;
+//			seqCntRst = 0;
+//			lightAllSl = 0;
+//			lightRndSl = 1;
+//			simonsTurn = 1;
+//			fini = 0;
+
+			timerCntEn = 1;
+			rndSeqEn = 1;
+			lightRndSl = 1;
+			simonsTurn = 1;
+			
+			nxtState = curState;
       end
 
       PlayPause: begin

@@ -5,11 +5,11 @@
 // rst synchronously sets the counter to startVal
 //
 module counterDn #(parameter WIDTH=12, parameter [WIDTH-1:0] STARTVAL = 4095)
-   (output logic [WIDTH-1:0] val,
-    output logic zero,
-    input logic [WIDTH-1:0] startVal,
-    input logic  enab,
-    input logic  rst,
+   (output logic [WIDTH-1:0] val,   // 0
+    output logic zero,  // 0
+    input logic [WIDTH-1:0] startVal,  // 6
+    input logic  enab,  // 1
+    input logic  rst,  // 0
     input logic  clk);
 
 

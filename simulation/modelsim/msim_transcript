@@ -1,0 +1,314 @@
+# Reading pref.tcl
+# do lab3_starter_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/alcka/OneDrive/Desktop/UCSD\ Work\ Folder/CSE140L/lab3-starter {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:25:47 on Feb 28,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter" C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv 
+# -- Compiling module simonStmach
+# 
+# Top level modules:
+# 	simonStmach
+# End time: 16:25:47 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alcka/OneDrive/Desktop/UCSD\ Work\ Folder/CSE140L/lab3-starter {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/poly.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:25:48 on Feb 28,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter" C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/poly.sv 
+# -- Compiling module poly
+# 
+# Top level modules:
+# 	poly
+# End time: 16:25:48 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alcka/OneDrive/Desktop/UCSD\ Work\ Folder/CSE140L/lab3-starter {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:25:48 on Feb 28,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter" C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv 
+# -- Compiling module lab3
+# 
+# Top level modules:
+# 	lab3
+# End time: 16:25:48 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alcka/OneDrive/Desktop/UCSD\ Work\ Folder/CSE140L/lab3-starter {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counterDn.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:25:48 on Feb 28,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter" C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counterDn.sv 
+# -- Compiling module counterDn
+# 
+# Top level modules:
+# 	counterDn
+# End time: 16:25:48 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alcka/OneDrive/Desktop/UCSD\ Work\ Folder/CSE140L/lab3-starter {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:25:48 on Feb 28,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter" C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counter.sv 
+# -- Compiling module counterUp
+# 
+# Top level modules:
+# 	counterUp
+# End time: 16:25:48 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/alcka/OneDrive/Desktop/UCSD\ Work\ Folder/CSE140L/lab3-starter {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/bcd2hex.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:25:48 on Feb 28,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter" C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/bcd2hex.sv 
+# -- Compiling module bcd2hex
+# 
+# Top level modules:
+# 	bcd2hex
+# End time: 16:25:48 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/bcd2hex.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:28:04 on Feb 28,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/bcd2hex.sv 
+# -- Compiling module bcd2hex
+# 
+# Top level modules:
+# 	bcd2hex
+# End time: 16:28:04 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:28:04 on Feb 28,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counter.sv 
+# -- Compiling module counterUp
+# 
+# Top level modules:
+# 	counterUp
+# End time: 16:28:04 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counterDn.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:28:04 on Feb 28,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counterDn.sv 
+# -- Compiling module counterDn
+# 
+# Top level modules:
+# 	counterDn
+# End time: 16:28:04 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:28:04 on Feb 28,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv 
+# -- Compiling module lab3
+# 
+# Top level modules:
+# 	lab3
+# End time: 16:28:05 on Feb 28,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:28:05 on Feb 28,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv 
+# -- Compiling module lab3_tb
+# ** Error: C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(8): (vlog-13006) Could not find the package (tbs).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# ** Error: (vlog-13069) C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(32): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(35): (vlog-2730) Undefined variable: 'userInput'.
+# ** Error: C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(35): (vlog-2730) Undefined variable: 'CORRECT'.
+# ** Error: (vlog-13069) C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(163): near "=": syntax error, unexpected '=', expecting ';'.
+# ** Error: (vlog-13069) C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(185): near "=": syntax error, unexpected '=', expecting ';'.
+# End time: 16:28:05 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb_support.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:28:05 on Feb 28,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb_support.sv 
+# -- Compiling package tbs
+# 
+# Top level modules:
+# 	--none--
+# End time: 16:28:05 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/poly.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:28:05 on Feb 28,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/poly.sv 
+# -- Compiling module poly
+# 
+# Top level modules:
+# 	poly
+# End time: 16:28:05 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:28:05 on Feb 28,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv 
+# -- Compiling module simonStmach
+# 
+# Top level modules:
+# 	simonStmach
+# End time: 16:28:05 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/bcd2hex.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:30:40 on Feb 28,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/bcd2hex.sv 
+# -- Compiling module bcd2hex
+# 
+# Top level modules:
+# 	bcd2hex
+# End time: 16:30:40 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:30:40 on Feb 28,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counter.sv 
+# -- Compiling module counterUp
+# 
+# Top level modules:
+# 	counterUp
+# End time: 16:30:40 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counterDn.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:30:40 on Feb 28,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counterDn.sv 
+# -- Compiling module counterDn
+# 
+# Top level modules:
+# 	counterDn
+# End time: 16:30:40 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:30:40 on Feb 28,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv 
+# -- Compiling module lab3
+# 
+# Top level modules:
+# 	lab3
+# End time: 16:30:40 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:30:40 on Feb 28,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv 
+# -- Compiling module lab3_tb
+# -- Importing package tbs
+# 
+# Top level modules:
+# 	lab3_tb
+# End time: 16:30:41 on Feb 28,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb_support.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:30:41 on Feb 28,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb_support.sv 
+# -- Compiling package tbs
+# 
+# Top level modules:
+# 	--none--
+# End time: 16:30:41 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/poly.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:30:41 on Feb 28,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/poly.sv 
+# -- Compiling module poly
+# 
+# Top level modules:
+# 	poly
+# End time: 16:30:41 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:30:41 on Feb 28,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv 
+# -- Compiling module simonStmach
+# 
+# Top level modules:
+# 	simonStmach
+# End time: 16:30:41 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim rtl_work.lab3_tb
+# vsim rtl_work.lab3_tb 
+# Start time: 16:34:18 on Feb 28,2023
+# Loading sv_std.std
+# Loading rtl_work.tbs
+# Loading rtl_work.lab3_tb
+# Loading rtl_work.lab3
+# Loading rtl_work.counterDn
+# Loading rtl_work.counterUp
+# Loading rtl_work.poly
+# Loading rtl_work.bcd2hex
+# Loading rtl_work.simonStmach
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'val'. The port definition is at: C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counter.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /lab3_tb/dutbatch/sequenceCnt File: C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv Line: 115
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'sc1'.  Expected 2, found 0.
+#    Time: 0 ps  Iteration: 0  Instance: /lab3_tb/dutbatch/sc1 File: C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv Line: 172
+# ** Warning: (vsim-3722) C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv(172): [TFMPC] - Missing connection for port 'hexSeg'.
+# ** Warning: (vsim-3722) C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv(172): [TFMPC] - Missing connection for port 'bcd'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'sc0'.  Expected 2, found 0.
+#    Time: 0 ps  Iteration: 0  Instance: /lab3_tb/dutbatch/sc0 File: C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv Line: 173
+# ** Warning: (vsim-3722) C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv(173): [TFMPC] - Missing connection for port 'hexSeg'.
+# ** Warning: (vsim-3722) C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv(173): [TFMPC] - Missing connection for port 'bcd'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'seq1'.  Expected 2, found 0.
+#    Time: 0 ps  Iteration: 0  Instance: /lab3_tb/dutbatch/seq1 File: C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv Line: 174
+# ** Warning: (vsim-3722) C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv(174): [TFMPC] - Missing connection for port 'hexSeg'.
+# ** Warning: (vsim-3722) C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv(174): [TFMPC] - Missing connection for port 'bcd'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'seq0'.  Expected 2, found 0.
+#    Time: 0 ps  Iteration: 0  Instance: /lab3_tb/dutbatch/seq0 File: C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv Line: 175
+# ** Warning: (vsim-3722) C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv(175): [TFMPC] - Missing connection for port 'hexSeg'.
+# ** Warning: (vsim-3722) C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv(175): [TFMPC] - Missing connection for port 'bcd'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (9) for port 'seqEqScore'. The port definition is at: C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /lab3_tb/dutbatch/statemach File: C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv Line: 177
+add wave -position end  sim:/lab3_tb/dutbatch/timerVal
+add wave -position end  sim:/lab3_tb/dutbatch/HEX5
+add wave -position end  sim:/lab3_tb/dutbatch/HEX4
+add wave -position end  sim:/lab3_tb/dutbatch/HEX3
+add wave -position end  sim:/lab3_tb/dutbatch/HEX1
+add wave -position end  sim:/lab3_tb/dutbatch/HEX0
+add wave -position end  sim:/lab3_tb/dutbatch/LEDR
+add wave -position end  sim:/lab3_tb/dutbatch/SW
+add wave -position end  sim:/lab3_tb/dutbatch/clk
+add wave -position end  sim:/lab3_tb/dutbatch/rst
+add wave -position end  sim:/lab3_tb/dutbatch/timerCntEn
+add wave -position end  sim:/lab3_tb/dutbatch/timerRst
+add wave -position end  sim:/lab3_tb/dutbatch/uTimerCntEn
+add wave -position end  sim:/lab3_tb/dutbatch/uTimerRst
+add wave -position end  sim:/lab3_tb/dutbatch/scoreCntEn
+add wave -position end  sim:/lab3_tb/dutbatch/scoreCntRst
+add wave -position end  sim:/lab3_tb/dutbatch/rndSeqEn
+add wave -position end  sim:/lab3_tb/dutbatch/rndSeqRst
+add wave -position end  sim:/lab3_tb/dutbatch/seqCntEn
+add wave -position end  sim:/lab3_tb/dutbatch/seqCntRst
+add wave -position end  sim:/lab3_tb/dutbatch/lightAllSl
+add wave -position end  sim:/lab3_tb/dutbatch/lightRndSl
+add wave -position end  sim:/lab3_tb/dutbatch/simonsTurn
+add wave -position end  sim:/lab3_tb/dutbatch/fini
+add wave -position end  sim:/lab3_tb/dutbatch/timerVal
+add wave -position end  sim:/lab3_tb/dutbatch/timerOut
+add wave -position end  sim:/lab3_tb/dutbatch/timerGtN
+add wave -position end  sim:/lab3_tb/dutbatch/countStart
+add wave -position end  sim:/lab3_tb/dutbatch/uTimerVal
+add wave -position end  sim:/lab3_tb/dutbatch/uTimerOut
+add wave -position end  sim:/lab3_tb/dutbatch/uTimerGtN
+add wave -position end  sim:/lab3_tb/dutbatch/uCountStart
+add wave -position end  sim:/lab3_tb/dutbatch/scoreWrap
+add wave -position end  sim:/lab3_tb/dutbatch/score
+add wave -position end  sim:/lab3_tb/dutbatch/seqWrap
+add wave -position end  sim:/lab3_tb/dutbatch/seqEqScore
+add wave -position end  sim:/lab3_tb/dutbatch/rndVal
+add wave -position end  sim:/lab3_tb/dutbatch/anySwitch
+add wave -position end  sim:/lab3_tb/dutbatch/switchMatch
+run
+add wave -position 3  sim:/lab3_tb/dutbatch/timerCntEn
+add wave -position 4  sim:/lab3_tb/dutbatch/timerRst
+add wave -position 4  sim:/lab3_tb/dutbatch/rst
+# End time: 16:58:00 on Feb 28,2023, Elapsed time: 0:23:42
+# Errors: 0, Warnings: 14

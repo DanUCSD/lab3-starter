@@ -26,19 +26,19 @@ module lab3 (
    logic timerCntEn;
    logic timerRst;
 
-   // TODO : Declare the required signals 
-     logic uTimerCntEn;
-     logic uTimerRst;
-     logic scoreCntEn;
-     logic scoreCntRst;
-     logic rndSeqEn;
-     logic rndSeqRst;
-     logic seqCntEn;
-     logic seqCntRst;
-     logic lightAllSl;
-     logic lightRndSl;
-     logic simonsTurn;
-     logic fini;
+	logic uTimerCntEn;
+	logic uTimerRst;
+	logic scoreCntEn;
+	logic scoreCntRst;
+	logic rndSeqEn;
+	logic rndSeqRst;
+	logic seqCntEn;
+	logic seqCntRst;
+	logic lightAllSl;
+	logic lightRndSl;
+	logic simonsTurn;
+	logic fini;
+
 
    //
    // timer
@@ -59,81 +59,97 @@ module lab3 (
         .startVal(countStart),
         .enab(timerCntEn),
         .rst(timerRst),
-        .clk(clk));                // edited
+        .clk(clk));
 
-   // TODO : Using the timerCnt example implement the rest of the counters and design  
+   // Using the timerCnt example implement the rest of the counters and design  
 
    //
-   // TODO: user timer
+   // user timer
    // this counter counts down from some configurable multiple of 250 ms.
    // It generates a timeout if a user does not respond in a timely manner.
    //
-          
+   wire [5:0] uTimerVal;
+   wire       uTimerOut;
+   wire       uTimerGtN;
+   assign uTimerGtN = (uTimerVal > 0);
+
+   logic [5:0] uCountStart;
+   
+   assign uCountStart = 20;  
+	
    counterDn #(6) 
        
        Cnt  (
-        .val(),            // not sure
-        .zero(uTimerOut),
-        .startVal(),     // not sure
+        .val(uTimerVal),                   // not sure
+        .zero(uTimerOut), 
+        .startVal(uCountStart),           
         .enab(uTimerCntEn),
         .rst(uTimerRst),
         .clk(clk));
-
+		  
 
    //
-   // TODO: score counter
+   // score counter
    // what is the max simon seq length so far
    // start at 1, after each successful play, increment by 1
    //
+	wire scoreWrap;  // Unused.
    wire [7:0] score;
    counterUp #(8,127) scoreCnt (
         .val(score),
-        .wrap(),
+        .wrap(scoreWrap),
         .enab(scoreCntEn),                   
-        .rst(scoreCntRst), .clk(clk));
+        .rst(scoreCntRst), 
+		  .clk(clk));
 
          
       
    //
-   // TODO: seq counter
+   // seq counter
    // this counter increments for each step of a "simon" sequence
    // It increments after a light is shown by Simon or a light is
    // turned off by the User.
    // What should seqEqScore be?
-   
-   counterUp #(8, 255 ) sequnceCnt (
-        .val(),
-        .wrap(),
-        .enab(),                     
-        .rst(), .clk);
+	
+	wire seqWrap;  // Unused.
+   wire [8:0] seqEqScore;
+   counterUp #(8, 255) sequenceCnt (
+        .val(seqEqScore),
+        .wrap(seqWrap),
+        .enab(seqCntEn),                     
+        .rst(seqCntRst), .clk(clk));
 
    //
-   // TODO: polynomial counter
+   // polynomial counter
    // random number generator
    //   
    
+	wire [7:0] rndVal;
    poly poly (
-        .val(),
+        .val(rndVal),
         .seed({2'b0, SW[8:4], 1'b1}),
         // x8 + x6 + x5 + x4 + 1
         .taps(8'b1011_1000),
-        .enab(),
-        .rst(),
-        .clk);
+        .enab(rndSeqEn),
+        .rst(rndSeqRst),
+        .clk(clk));
 
    
   // TODO : fill in the logic for LEDR[9:0]
   // Hint : Think of the different scenarios which will light up the lEDS
   //********Fill here ***********
-
-     always_comb begin
-          SW = lightAllSl ? 9'b1111111111 :9'b0000000000;
-          
-     
-     end
-
-   // TODO: check if any switch active and how should it be used
-   //********Fill here ***********
+  
+  wire anySwitch;
+  wire switchMatch;
+  always_comb begin
+		LEDR[8:0] = lightAllSl ? 9'b111111111 : 9'b000000000;
+		
+  end
+ 
+	bcd2hex debug (.bcd(timerVal), .hexSeg(HEX5));
+  
+  // TODO: check if any switch active and how should it be used
+  //********Fill here ***********
   
 
   // TODO: does the current switch match what is expected
@@ -141,7 +157,7 @@ module lab3 (
    
   // TODO: display "H" or blank on HEX5
   //********Fill here ***********
-
+	
    
    // TODO score
    bcd2hex sc1 ();
@@ -164,6 +180,7 @@ module lab3 (
         .lightAllSl(lightAllSl),
         .lightRndSl(lightRndSl),
         .simonsTurn(simonsTurn), 
+		   
         .timerGtN(timerGtN),
         .timerOut(timerOut),
         .uTimerOut(uTimerOut),     

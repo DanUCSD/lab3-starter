@@ -32,7 +32,7 @@ module bcd2hex(
 		4'b1101 : hexSeg = 7'b0100001;
 		4'b1110 : hexSeg = 7'b0000110;
 		4'b1111 : hexSeg = 7'b0001110;
-		default : hexSeg = 7'h00;
+		default : hexSeg = 7'b1111110;
 	endcase
 
 endmodule

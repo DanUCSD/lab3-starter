@@ -1,0 +1,353 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/sim
+vbcd2hex
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1677632845
+!i10b 1
+!s100 J0J91W6:I?MdT6Y>LW4;j0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IazPnF:S`i:U:Q@WS54RSn0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1677556796
+8../bcd2hex.sv
+F../bcd2hex.sv
+!i122 1
+L0 12 27
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1677632845.000000
+!s107 ../lab3_tb.sv|../lab3_tb_support.sv|../lab3.sv|../simonStmach.sv|../poly.sv|../counterDn.sv|../counter.sv|../bcd2hex.sv|
+Z7 !s90 -sv|-nolock|../bcd2hex.sv|../counter.sv|../counterDn.sv|../poly.sv|../simonStmach.sv|../lab3.sv|../lab3_tb_support.sv|../lab3_tb.sv|
+!i113 1
+Z8 o-sv -nolock
+Z9 tCvgOpt 0
+vcounterDn
+R1
+R2
+!i10b 1
+!s100 G=VJXjD`2h]j9@;]8gO[_3
+R3
+IS4^E2R^nP`=44We>=HIE@1
+R4
+S1
+R0
+w1677627182
+8../counterDn.sv
+F../counterDn.sv
+!i122 1
+L0 7 23
+R5
+r1
+!s85 0
+31
+R6
+Z10 !s107 ../lab3_tb.sv|../lab3_tb_support.sv|../lab3.sv|../simonStmach.sv|../poly.sv|../counterDn.sv|../counter.sv|../bcd2hex.sv|
+R7
+!i113 1
+R8
+R9
+ncounter@dn
+vcounterUp
+R1
+R2
+!i10b 1
+!s100 EADT2HAlKNAkKOU:l=aUn3
+R3
+I=W2M1n9gLf0[?1PGQ?GiI0
+R4
+S1
+R0
+Z11 w1677545039
+8../counter.sv
+F../counter.sv
+!i122 1
+L0 6 23
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
+ncounter@up
+vkeyboard_interface
+R2
+!i10b 1
+!s100 XgUdC=zD=>[_VWOVV?=XP3
+R3
+ICjY@KfX1nze;aI52@gmYB1
+R4
+R0
+R11
+8../tb/keyboard_interface.v
+F../tb/keyboard_interface.v
+!i122 0
+L0 13 361
+R5
+r1
+!s85 0
+31
+R6
+Z12 !s107 ../tb/tb.v|../tb/ps2_data_out.v|../tb/ps2_command_in.v|../tb/keyboard_interface.v|
+Z13 !s90 -nolock|../tb/keyboard_interface.v|../tb/ps2_command_in.v|../tb/ps2_data_out.v|../tb/tb.v|
+!i113 1
+Z14 o-nolock
+R9
+vlab3
+R1
+R2
+!i10b 1
+!s100 z^aM>2zIR22YA4P0V58G21
+R3
+IY56:hK=Yd_fAL;fcI3RL@2
+R4
+S1
+R0
+w1677632797
+8../lab3.sv
+F../lab3.sv
+!i122 1
+L0 15 178
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
+vlab3_tb
+R1
+DXx4 work 3 tbs 0 22 ?iagabkOYY94ERb3[NQ0o0
+R2
+!i10b 1
+!s100 l3B=Kzh06N^QTd:_W]`og3
+R3
+IBJ>LOECXSNPZY8GO5Agbe0
+R4
+S1
+R0
+R11
+8../lab3_tb.sv
+F../lab3_tb.sv
+!i122 1
+L0 7 214
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
+vpoly
+R1
+R2
+!i10b 1
+!s100 ]=Fbn^_;_16Mc^HH<D2Kk3
+R3
+I93A<;D9>?oIQjZRc;nJ5@1
+R4
+S1
+R0
+R11
+8../poly.sv
+F../poly.sv
+!i122 1
+L0 9 26
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
+vps2_command_in
+R2
+!i10b 1
+!s100 ^c?<J@ZFUF[^inb^N5VN91
+R3
+IcEKlfifd?3RK9m2=EkSV^3
+R4
+R0
+R11
+8../tb/ps2_command_in.v
+F../tb/ps2_command_in.v
+!i122 0
+L0 9 125
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R14
+R9
+vps2_data_out
+R2
+!i10b 1
+!s100 7Zo2>_SoDfmLJ4cBe]>Hj3
+R3
+I^HCB``Xe4L8J9R>T6ZAeI3
+R4
+R0
+R11
+8../tb/ps2_data_out.v
+F../tb/ps2_data_out.v
+!i122 0
+L0 9 131
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R14
+R9
+vsimonStmach
+R1
+R2
+!i10b 1
+!s100 7NDio;YlCVK?YEZ68L4LO0
+R3
+I151[WS=mhA:XV6ZWHhDUP0
+R4
+S1
+R0
+w1677632840
+8../simonStmach.sv
+F../simonStmach.sv
+!i122 1
+L0 6 134
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
+nsimon@stmach
+vslowclk
+R2
+!i10b 1
+!s100 f`I9ckn0gi1bWo0WVBidZ1
+R3
+INU;;^87^MT8QzKN7j@BIW3
+R4
+R0
+R11
+Z15 8../tb/tb.v
+Z16 F../tb/tb.v
+!i122 0
+L0 31 20
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R14
+R9
+vslowrst
+R2
+!i10b 1
+!s100 5a4B`IR@z[BTi2ZLff_[31
+R3
+I>@Yn<ilWI7`mb=1DzfkgR2
+R4
+R0
+R11
+R15
+R16
+!i122 0
+L0 11 18
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R14
+R9
+vtb
+R2
+!i10b 1
+!s100 J^kWjXnVNI:O^@lmGaNI22
+R3
+Iiio0KI0>?V@VS`KFcj?;F1
+R4
+R0
+R11
+R15
+R16
+!i122 0
+L0 53 79
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R14
+R9
+Xtbs
+R1
+R2
+!i10b 1
+!s100 QZ=^oC82X1zomMlTeS8Ne3
+R3
+I?iagabkOYY94ERb3[NQ0o0
+V?iagabkOYY94ERb3[NQ0o0
+S1
+R0
+R11
+8../lab3_tb_support.sv
+F../lab3_tb_support.sv
+!i122 1
+L0 3 0
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
