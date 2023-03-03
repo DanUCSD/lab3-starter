@@ -11,7 +11,7 @@ cModel Technology
 Z0 dC:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/sim
 vbcd2hex
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1677642038
+Z2 !s110 1677807357
 !i10b 1
 !s100 J0J91W6:I?MdT6Y>LW4;j0
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1677642038.000000
+Z6 !s108 1677807357.000000
 !s107 ../lab3_tb.sv|../lab3_tb_support.sv|../lab3.sv|../simonStmach.sv|../poly.sv|../counterDn.sv|../counter.sv|../bcd2hex.sv|
 Z7 !s90 -sv|-nolock|../bcd2hex.sv|../counter.sv|../counterDn.sv|../poly.sv|../simonStmach.sv|../lab3.sv|../lab3_tb_support.sv|../lab3_tb.sv|
 !i113 1
@@ -113,17 +113,17 @@ vlab3
 R1
 R2
 !i10b 1
-!s100 ]eIX60HMfnje^37GHhAW51
+!s100 ]mL2h@QC7UUW]CXBWm;8z0
 R3
-IYOZ<34^TN_Obo5DXBAj<z0
+IaSaV2LZg`:S@>87[VJJOn1
 R4
 S1
 R0
-w1677642033
+w1677807354
 8../lab3.sv
 F../lab3.sv
 !i122 1
-L0 15 191
+L0 15 255
 R5
 r1
 !s85 0
@@ -235,17 +235,17 @@ vsimonStmach
 R1
 R2
 !i10b 1
-!s100 4ZOGP[i00dZmNbaWjaOUX3
+!s100 SP4nAa[FMZ3P;LhHYeVQK0
 R3
-I_4lQWzRW_<dK=7gmFo]hm3
+IkzN]]cQUIJL2<BT90bbHJ2
 R4
 S1
 R0
-w1677641637
+w1677807117
 8../simonStmach.sv
 F../simonStmach.sv
 !i122 1
-L0 6 148
+L0 6 209
 R5
 r1
 !s85 0

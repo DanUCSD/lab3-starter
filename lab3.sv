@@ -80,7 +80,7 @@ module lab3 (
    counterDn #(6) 
        
        Cnt  (
-        .val(uTimerVal),                   // not sure
+        .val(uTimerVal),                   
         .zero(uTimerOut), 
         .startVal(uCountStart),           
         .enab(uTimerCntEn),
@@ -93,7 +93,7 @@ module lab3 (
    // what is the max simon seq length so far
    // start at 1, after each successful play, increment by 1
    //
-	wire scoreWrap;  // Unused.
+	wire scoreWrap;  
    wire [7:0] score;
    counterUp #(8,127) scoreCnt (
         .val(score),
@@ -113,7 +113,7 @@ module lab3 (
 	
 	wire seqWrap;  // Unused.
    wire seqEqScore;
-	logic [8:0] seqVal;
+	logic [7:0] seqVal;
    counterUp #(8, 255) sequenceCnt (
         .val(seqVal),
         .wrap(seqWrap),
@@ -132,35 +132,60 @@ module lab3 (
         .val(rndVal),
         .seed({2'b0, SW[8:4], 1'b1}),
         // x8 + x6 + x5 + x4 + 1
-//		  .seed(8'b01000111),
         .taps(8'b1011_1000),
         .enab(rndSeqEn),
         .rst(rndSeqRst),
         .clk(clk));
-
-   
-  // TODO : fill in the logic for LEDR[9:0]
-  // Hint : Think of the different scenarios which will light up the lEDS
-  //********Fill here ***********
   
-  wire anySwitch;
-  wire switchMatch;
-  logic [1:0] test;
-  assign lights = rndVal[4] * 2 + rndVal[2];
+  wire [3:0] lights;
+
+	wire b1;
+	wire b0;
+	assign b1 = rndVal[4] ? 1'b1 : 1'b0;
+	assign b0 = rndVal[2] ? 1'b1 : 1'b0;
+
+  assign lights = b1 * 2 + b0;
+  
+  
+  assign anySwitch = (SW[0] || SW[1] || SW[2] || SW[3]);
+	logic [7:0] switchOnIdx;
+
+
+	always_comb begin
+		if (SW[0]) begin
+			switchOnIdx = 0;
+		end else if (SW[1]) begin
+			switchOnIdx = 1;
+		end else if (SW[2]) begin
+			switchOnIdx = 2;
+		end else if (SW[3]) begin
+			switchOnIdx = 3;
+		end else begin
+			switchOnIdx = -1;
+		end
+		
+	end
+  
+  assign switchMatch = (lights == switchOnIdx);
   
   always_comb begin
+		LEDR[9] = !simonsTurn;
 		LEDR[8:4] = lightAllSl ? 5'b11111 : 5'b00000;
-		LEDR[3] = lightAllSl ? 1 : (lightRndSl ? lights == 3 : 0);
-		LEDR[2] = lightAllSl ? 1 : (lightRndSl ? lights == 2 : 0);
-		LEDR[1] = lightAllSl ? 1 : (lightRndSl ? lights == 1 : 0);
-		LEDR[0] = lightAllSl ? 1 : (lightRndSl ? lights == 0 : 0);
+		LEDR[3] = lightAllSl ? 1 : switchOnIdx == 3 ? 1 : (lightRndSl ? lights == 3 : 0);
+		LEDR[2] = lightAllSl ? 1 : switchOnIdx == 2 ? 1 : (lightRndSl ? lights == 2 : 0);
+		LEDR[1] = lightAllSl ? 1 : switchOnIdx == 1 ? 1 : (lightRndSl ? lights == 1 : 0);
+		LEDR[0] = lightAllSl ? 1 : switchOnIdx == 0 ? 1 : (lightRndSl ? lights == 0 : 0);
 		
-
+		if (fini) begin
+			HEX5 = 7'b0001001;
+			
+			// Some code here to show 
+		end else begin
+			
+		end
+		
   end
- 
-	bcd2hex debug0 (.bcd(score), .hexSeg(HEX5));
-//	bcd2hex debug1 (.bcd(rndVal[4]), .hexSeg(HEX4));
-  
+
   // TODO: check if any switch active and how should it be used
   //********Fill here ***********
   
@@ -170,7 +195,7 @@ module lab3 (
    
   // TODO: display "H" or blank on HEX5
   //********Fill here ***********
-	
+
    
    // TODO score
    bcd2hex sc1 ();
@@ -178,7 +203,7 @@ module lab3 (
    bcd2hex seq1 ();
    bcd2hex seq0 ();
 
-   simonStmach statemach (
+   simonStmach statemach (  
         .fini(fini),
         .timerCntEn(timerCntEn),
         .timerRst(timerRst),                

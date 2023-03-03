@@ -4,3 +4,6 @@ incremental_db/
 *.qpf
 *.qsf
 output_files/
+*.rpt
+sim/
+simulation/
