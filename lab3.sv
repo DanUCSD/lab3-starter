@@ -178,10 +178,8 @@ module lab3 (
 		
 		if (fini) begin
 			HEX5 = 7'b0001001;
-			
-			// Some code here to show 
 		end else begin
-			
+			HEX5 = 7'b1111111;
 		end
 		
   end
@@ -193,15 +191,11 @@ module lab3 (
   // TODO: does the current switch match what is expected
   //********Fill here ***********
    
-  // TODO: display "H" or blank on HEX5
-  //********Fill here ***********
-
-   
    // TODO score
-   bcd2hex sc1 ();
-   bcd2hex sc0 ();
-   bcd2hex seq1 ();
-   bcd2hex seq0 ();
+   bcd2hex sc1 (.hexSeg(HEX4), .bcd(score[7:4]));
+   bcd2hex sc0 (.hexSeg(HEX3), .bcd(score[3:0]));
+   bcd2hex seq1 (.hexSeg(HEX1), .bcd(seqVal[7:4]));
+   bcd2hex seq0 (.hexSeg(HEX0), .bcd(seqVal[3:0]));
 
    simonStmach statemach (  
         .fini(fini),

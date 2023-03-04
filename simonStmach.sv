@@ -193,6 +193,7 @@ module simonStmach (
 
       Fail: begin
 			fini = 1;
+			lightAllSl = 1;
          nxtState = curState;
       end
 
