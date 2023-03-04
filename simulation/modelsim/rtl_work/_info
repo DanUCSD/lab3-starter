@@ -11,160 +11,205 @@ cModel Technology
 Z0 dC:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simulation/modelsim
 vbcd2hex
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1677701236
+!s110 1677897947
 !i10b 1
 !s100 J0J91W6:I?MdT6Y>LW4;j0
-Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IBH008iBQUA31@m[n9n8VV2
-Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IRoUQ`b0`6KYOC1CzYkQV81
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
 w1677556796
 8C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/bcd2hex.sv
 FC:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/bcd2hex.sv
-!i122 5
+!i122 10
 L0 12 27
-Z5 OV;L;2020.1;71
+Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1677701236.000000
+Z5 !s108 1677897947.000000
 !s107 C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/bcd2hex.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter|C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/bcd2hex.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/bcd2hex.sv|
 !i113 1
-Z7 o-sv -work work
-Z8 !s92 -sv -work work {+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter}
-Z9 tCvgOpt 0
+Z6 o-work work
+Z7 tCvgOpt 0
 vcounterDn
 R1
-R2
+Z8 !s110 1677897948
 !i10b 1
 !s100 G=VJXjD`2h]j9@;]8gO[_3
+R2
+IC?7]EmLV]1acV4M48lgDB2
 R3
-IQAO4O[YbJ65lan:eQF1gT3
-R4
 S1
 R0
 w1677627182
 8C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counterDn.sv
 FC:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counterDn.sv
-!i122 3
+!i122 12
 L0 7 23
-R5
+R4
 r1
 !s85 0
 31
-R6
+Z9 !s108 1677897948.000000
 !s107 C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counterDn.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter|C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counterDn.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counterDn.sv|
 !i113 1
+R6
 R7
-R8
-R9
 ncounter@dn
 vcounterUp
 R1
-R2
+R8
 !i10b 1
 !s100 EADT2HAlKNAkKOU:l=aUn3
+R2
+IbYV`a9]Vlfg@UEbLP>F<X1
 R3
-I`UQWcRoVKoG_^UfPOY;XZ3
-R4
 S1
 R0
 Z10 w1677545039
 8C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counter.sv
 FC:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counter.sv
-!i122 4
+!i122 11
 L0 6 23
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
 !s107 C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counter.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter|C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counter.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counter.sv|
 !i113 1
+R6
 R7
-R8
-R9
 ncounter@up
 vlab3
 R1
-R2
+R8
 !i10b 1
-!s100 Tc3M2zgki=^mAUfjdnO_W0
+!s100 hlRJoP0O5jXS]MJaXI<:g0
+R2
+I@]DF`GXB>F@bj[]KVU1`K1
 R3
-IEcVMlZXG;<7B];JTJCNfo0
-R4
 S1
 R0
-w1677696310
+w1677889039
 8C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv
 FC:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv
-!i122 2
-L0 15 199
-R5
+!i122 13
+L0 15 210
+R4
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter|C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv|
-!i113 1
-R7
-R8
 R9
+!s107 C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv|
+!i113 1
+R6
+R7
+vlab3_tb
+R1
+DXx4 work 3 tbs 0 22 YWPHl:Sjd_;XXlEKIXQXd2
+R8
+!i10b 1
+!s100 l3B=Kzh06N^QTd:_W]`og3
+R2
+I9hz>SGWmNhaL>X0UF@AX83
+R3
+S1
+R0
+R10
+8C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv
+FC:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv
+!i122 14
+L0 7 214
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv|
+!i113 1
+R6
+R7
 vpoly
 R1
-R2
+R8
 !i10b 1
 !s100 ]=Fbn^_;_16Mc^HH<D2Kk3
+R2
+IPU[1jl]4Jm6Qak`W:9jd81
 R3
-IYEFj3`nMda:`ACEZW3Qmm0
-R4
 S1
 R0
 R10
 8C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/poly.sv
 FC:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/poly.sv
-!i122 1
+!i122 16
 L0 9 26
-R5
+R4
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/poly.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter|C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/poly.sv|
-!i113 1
-R7
-R8
 R9
+!s107 C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/poly.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/poly.sv|
+!i113 1
+R6
+R7
 vsimonStmach
 R1
-!s110 1677701235
+R8
 !i10b 1
-!s100 NlD]lWRlQ@EdTQN>B]UK]1
+!s100 j?452<0TI`G:4o<0Pi:cl2
+R2
+IU>jmfG]l2>E72Nk>P<T;h3
 R3
-I16^6D3G=[zYEW1@=K=3kg3
-R4
 S1
 R0
-w1677696519
+w1677888698
 8C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv
 FC:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv
-!i122 0
-L0 6 172
-R5
+!i122 17
+L0 6 197
+R4
 r1
 !s85 0
 31
-!s108 1677701235.000000
-!s107 C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter|C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv|
-!i113 1
-R7
-R8
 R9
+!s107 C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv|
+!i113 1
+R6
+R7
 nsimon@stmach
+Xtbs
+R1
+R8
+!i10b 1
+!s100 QZ=^oC82X1zomMlTeS8Ne3
+R2
+IYWPHl:Sjd_;XXlEKIXQXd2
+VYWPHl:Sjd_;XXlEKIXQXd2
+S1
+R0
+R10
+8C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb_support.sv
+FC:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb_support.sv
+!i122 15
+L0 3 0
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb_support.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb_support.sv|
+!i113 1
+R6
+R7

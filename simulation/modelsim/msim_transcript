@@ -12,68 +12,106 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/alcka/OneDrive/Desktop/UCSD\ Work\ Folder/CSE140L/lab3-starter {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:07:15 on Mar 01,2023
+# Start time: 18:35:28 on Mar 03,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter" C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv 
 # -- Compiling module simonStmach
 # 
 # Top level modules:
 # 	simonStmach
-# End time: 12:07:15 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 18:35:28 on Mar 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/alcka/OneDrive/Desktop/UCSD\ Work\ Folder/CSE140L/lab3-starter {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/poly.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:07:16 on Mar 01,2023
+# Start time: 18:35:28 on Mar 03,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter" C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/poly.sv 
 # -- Compiling module poly
 # 
 # Top level modules:
 # 	poly
-# End time: 12:07:16 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 18:35:28 on Mar 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/alcka/OneDrive/Desktop/UCSD\ Work\ Folder/CSE140L/lab3-starter {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:07:16 on Mar 01,2023
+# Start time: 18:35:29 on Mar 03,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter" C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv 
 # -- Compiling module lab3
 # 
 # Top level modules:
 # 	lab3
-# End time: 12:07:16 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 18:35:29 on Mar 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/alcka/OneDrive/Desktop/UCSD\ Work\ Folder/CSE140L/lab3-starter {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counterDn.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:07:16 on Mar 01,2023
+# Start time: 18:35:29 on Mar 03,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter" C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counterDn.sv 
 # -- Compiling module counterDn
 # 
 # Top level modules:
 # 	counterDn
-# End time: 12:07:16 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 18:35:29 on Mar 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/alcka/OneDrive/Desktop/UCSD\ Work\ Folder/CSE140L/lab3-starter {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:07:16 on Mar 01,2023
+# Start time: 18:35:29 on Mar 03,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter" C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counter.sv 
 # -- Compiling module counterUp
 # 
 # Top level modules:
 # 	counterUp
-# End time: 12:07:16 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 18:35:29 on Mar 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/alcka/OneDrive/Desktop/UCSD\ Work\ Folder/CSE140L/lab3-starter {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/bcd2hex.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:07:16 on Mar 01,2023
+# Start time: 18:35:29 on Mar 03,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter" C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/bcd2hex.sv 
 # -- Compiling module bcd2hex
 # 
 # Top level modules:
 # 	bcd2hex
-# End time: 12:07:16 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 18:35:29 on Mar 03,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
+# Load canceled
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:42:46 on Mar 03,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv 
+# -- Compiling module simonStmach
+# 
+# Top level modules:
+# 	simonStmach
+# End time: 18:42:46 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript rtl_work.simonStmach
+# vsim -gui -l msim_transcript rtl_work.simonStmach 
+# Start time: 18:43:02 on Mar 03,2023
+# Loading sv_std.std
+# Loading rtl_work.simonStmach
+add wave -position end  sim:/simonStmach/timerCntEn
+add wave -position end  sim:/simonStmach/timerRst
+add wave -position end  sim:/simonStmach/uTimerCntEn
+add wave -position end  sim:/simonStmach/uTimerRst
+add wave -position end  sim:/simonStmach/scoreCntEn
+add wave -position end  sim:/simonStmach/scoreCntRst
+add wave -position end  sim:/simonStmach/rndSeqEn
+add wave -position end  sim:/simonStmach/rndSeqRst
+add wave -position end  sim:/simonStmach/seqCntEn
+add wave -position end  sim:/simonStmach/seqCntRst
+add wave -position end  sim:/simonStmach/lightAllSl
+add wave -position end  sim:/simonStmach/lightRndSl
+add wave -position end  sim:/simonStmach/simonsTurn
+add wave -position end  sim:/simonStmach/fini
+add wave -position end  sim:/simonStmach/timerGtN
+add wave -position end  sim:/simonStmach/timerOut
+add wave -position end  sim:/simonStmach/uTimerOut
+add wave -position end  sim:/simonStmach/seqEqScore
+add wave -position end  sim:/simonStmach/anySwitch
+add wave -position end  sim:/simonStmach/switchMatch
+add wave -position end  sim:/simonStmach/clk
+add wave -position end  sim:/simonStmach/rst
 vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:07:46 on Mar 01,2023
+# Start time: 18:45:25 on Mar 03,2023
 # vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv 
 # -- Compiling module lab3_tb
 # ** Error: C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(8): (vlog-13006) Could not find the package (tbs).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
@@ -82,5 +120,2585 @@ vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work F
 # ** Error: C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(35): (vlog-2730) Undefined variable: 'CORRECT'.
 # ** Error: (vlog-13069) C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(163): near "=": syntax error, unexpected '=', expecting ';'.
 # ** Error: (vlog-13069) C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(185): near "=": syntax error, unexpected '=', expecting ';'.
-# End time: 12:07:46 on Mar 01,2023, Elapsed time: 0:00:00
+# End time: 18:45:25 on Mar 03,2023, Elapsed time: 0:00:00
 # Errors: 6, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:45:31 on Mar 03,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv 
+# -- Compiling module lab3_tb
+# ** Error: C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(8): (vlog-13006) Could not find the package (tbs).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# ** Error: (vlog-13069) C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(32): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(35): (vlog-2730) Undefined variable: 'userInput'.
+# ** Error: C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(35): (vlog-2730) Undefined variable: 'CORRECT'.
+# ** Error: (vlog-13069) C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(163): near "=": syntax error, unexpected '=', expecting ';'.
+# ** Error: (vlog-13069) C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(185): near "=": syntax error, unexpected '=', expecting ';'.
+# End time: 18:45:31 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb_support.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:45:31 on Mar 03,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb_support.sv 
+# -- Compiling package tbs
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:45:31 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:45:32 on Mar 03,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv 
+# -- Compiling module lab3_tb
+# -- Importing package tbs
+# 
+# Top level modules:
+# 	lab3_tb
+# End time: 18:45:33 on Mar 03,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb_support.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:45:33 on Mar 03,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb_support.sv 
+# -- Compiling package tbs
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:45:33 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/bcd2hex.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:45:47 on Mar 03,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/bcd2hex.sv 
+# -- Compiling module bcd2hex
+# 
+# Top level modules:
+# 	bcd2hex
+# End time: 18:45:47 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:45:47 on Mar 03,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counter.sv 
+# -- Compiling module counterUp
+# 
+# Top level modules:
+# 	counterUp
+# End time: 18:45:48 on Mar 03,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counterDn.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:45:48 on Mar 03,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/counterDn.sv 
+# -- Compiling module counterDn
+# 
+# Top level modules:
+# 	counterDn
+# End time: 18:45:48 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:45:48 on Mar 03,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3.sv 
+# -- Compiling module lab3
+# 
+# Top level modules:
+# 	lab3
+# End time: 18:45:48 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:45:48 on Mar 03,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv 
+# -- Compiling module lab3_tb
+# -- Importing package tbs
+# 
+# Top level modules:
+# 	lab3_tb
+# End time: 18:45:48 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb_support.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:45:48 on Mar 03,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb_support.sv 
+# -- Compiling package tbs
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:45:48 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/poly.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:45:48 on Mar 03,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/poly.sv 
+# -- Compiling module poly
+# 
+# Top level modules:
+# 	poly
+# End time: 18:45:48 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:45:48 on Mar 03,2023
+# vlog -reportprogress 300 -work work C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/simonStmach.sv 
+# -- Compiling module simonStmach
+# 
+# Top level modules:
+# 	simonStmach
+# End time: 18:45:48 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript rtl_work.lab3_tb
+# End time: 18:46:02 on Mar 03,2023, Elapsed time: 0:03:00
+# Errors: 0, Warnings: 0
+# vsim -gui -l msim_transcript rtl_work.lab3_tb 
+# Start time: 18:46:02 on Mar 03,2023
+# Loading sv_std.std
+# Loading rtl_work.tbs
+# Loading rtl_work.lab3_tb
+# Loading rtl_work.lab3
+# Loading rtl_work.counterDn
+# Loading rtl_work.counterUp
+# Loading rtl_work.poly
+# Loading rtl_work.bcd2hex
+# Loading rtl_work.simonStmach
+add wave -position end  sim:/lab3_tb/userInput
+add wave -position end  sim:/lab3_tb/HEX5
+add wave -position end  sim:/lab3_tb/HEX4
+add wave -position end  sim:/lab3_tb/HEX3
+add wave -position end  sim:/lab3_tb/HEX1
+add wave -position end  sim:/lab3_tb/HEX0
+add wave -position end  sim:/lab3_tb/clk
+add wave -position end  sim:/lab3_tb/rst
+add wave -position end  sim:/lab3_tb/LEDR
+add wave -position end  sim:/lab3_tb/SW
+add wave -position end  sim:/lab3_tb/chk
+add wave -position end  sim:/lab3_tb/seqCnt
+add wave -position end  sim:/lab3_tb/seqLength
+add wave -position end  sim:/lab3_tb/testNum
+add wave -position end  sim:/lab3_tb/simCycle
+run -all
+# ***** test           1 testa - good user input maxSeq = 0x0f
+# 
+# Simon's Turn
+#           8:           1: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _    _        _   _  
+#     | |  | |      | | | | 
+#     |_|  |_|      |_| |_| 
+#          12:           1: Pass ExpectBlank [_ _ _ _ _ _ _ _ _ _] = [_ _ _ _ _ _ _ _ _ _]
+#      _    _        _   _  
+#     | |  | |      | | | | 
+#     |_|  |_|      |_| |_| 
+#          14:           1: Pass ExpectOne   [_ _ _ _ _ _ _ _ _ #] = [_ _ _ _ _ _ _ _ _ #]
+#          14:           1: Pass Seq # exp(00)  got(00)
+#          18:           1: Pass ExpectBlank [_ _ _ _ _ _ _ _ _ _] = [_ _ _ _ _ _ _ _ _ _]
+#          18:           1: Pass seq # exp(01)  got(01)
+# User's Turn
+#          22:           1: Pass checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [# _ _ _ _ _ _ _ _ #](got)
+#          22:           1: Pass seq # exp(00)  got(00)
+#          24:           1: Pass checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [# _ _ _ _ _ _ _ _ _](got)
+#          24:           1: Pass seq # exp(01)  got(01)
+# Simon's Turn
+#          26:           2: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _             _   _  
+#     | |    |      | | | | 
+#     |_|    |      |_| |_| 
+#          30:           2: Pass ExpectBlank [_ _ _ _ _ _ _ _ _ _] = [_ _ _ _ _ _ _ _ _ _]
+#      _             _   _  
+#     | |    |      | | | | 
+#     |_|    |      |_| |_| 
+#          32:           2: Pass ExpectOne   [_ _ _ _ _ _ _ _ _ #] = [_ _ _ _ _ _ _ _ _ #]
+#          32:           2: Pass Seq # exp(00)  got(00)
+#          38:           2: Pass ExpectBlank [_ _ _ _ _ _ _ _ _ _] = [_ _ _ _ _ _ _ _ _ _]
+#          38:           2: Pass seq # exp(01)  got(01)
+#          40:           2: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ _ _ _ _ _ _ _ # _] (got)
+#          40:           2: Pass Seq # exp(01)  got(01)
+#          44:           2: Pass ExpectBlank [_ _ _ _ _ _ _ _ _ _] = [_ _ _ _ _ _ _ _ _ _]
+#          44:           2: Pass seq # exp(02)  got(02)
+# User's Turn
+#          48:           2: Pass checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [# _ _ _ _ _ _ _ _ #](got)
+#          48:           2: Pass seq # exp(00)  got(00)
+#          50:           2: Pass checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [# _ _ _ _ _ _ _ _ _](got)
+#          50:           2: Pass seq # exp(01)  got(01)
+#          52:           2: Pass checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [# _ _ _ _ _ _ _ _ #](got)
+#          52:           2: Pass seq # exp(01)  got(01)
+#          54:           2: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#          54:           2: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+# Simon's Turn
+#          56:           3: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#          66: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#          66:           3: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#          76: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#          76:           3: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail          76:           3: seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#          86: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#          86:           3: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#          86:           3: Pass seq # exp(01)  got(01)
+#          96: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#          96:           3: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+#          96:           3: Pass Seq # exp(01)  got(01)
+#         106: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         106:           3: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         106:           3: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         116: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         116:           3: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail         116:           3: seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         126: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         126:           3: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         126:           3: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         136: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+# User's Turn
+#         138:           3: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         138:           3: Fail seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         140:           3: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         140:           3: Pass seq # exp(01)  got(01)
+#         142:           3: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         142:           3: Pass seq # exp(01)  got(01)
+#         144:           3: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         144:           3: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         146:           3: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#         146:           3: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         148:           3: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         148:           3: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+# Simon's Turn
+#         149:           4: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         159: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         159:           4: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         169: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         169:           4: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail         169:           4: seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         179: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         179:           4: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         179:           4: Pass seq # exp(01)  got(01)
+#         189: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         189:           4: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+#         189:           4: Pass Seq # exp(01)  got(01)
+#         199: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         199:           4: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         199:           4: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         209: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         209:           4: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail         209:           4: seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         219: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         219:           4: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         219:           4: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         229: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         229:           4: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail         229:           4: seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         239: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         239:           4: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         239:           4: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         249: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+# User's Turn
+#         251:           4: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         251:           4: Fail seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         253:           4: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         253:           4: Pass seq # exp(01)  got(01)
+#         255:           4: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         255:           4: Pass seq # exp(01)  got(01)
+#         257:           4: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         257:           4: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         259:           4: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#         259:           4: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         261:           4: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         261:           4: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         263:           4: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         263:           4: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         265:           4: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         265:           4: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+# Simon's Turn
+#         266:           5: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         276: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         276:           5: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         286: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         286:           5: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail         286:           5: seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         296: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         296:           5: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         296:           5: Pass seq # exp(01)  got(01)
+#         306: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         306:           5: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+#         306:           5: Pass Seq # exp(01)  got(01)
+#         316: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         316:           5: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         316:           5: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         326: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         326:           5: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail         326:           5: seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         336: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         336:           5: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         336:           5: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         346: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         346:           5: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail         346:           5: seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         356: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         356:           5: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         356:           5: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         366: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         366:           5: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail         366:           5: seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         376: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         376:           5: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         376:           5: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         386: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+# User's Turn
+#         388:           5: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         388:           5: Fail seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         390:           5: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         390:           5: Pass seq # exp(01)  got(01)
+#         392:           5: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         392:           5: Pass seq # exp(01)  got(01)
+#         394:           5: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         394:           5: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         396:           5: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#         396:           5: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         398:           5: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         398:           5: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         400:           5: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         400:           5: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         402:           5: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         402:           5: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         404:           5: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#         404:           5: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         406:           5: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         406:           5: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+# Simon's Turn
+#         407:           6: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         417: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         417:           6: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         427: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         427:           6: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail         427:           6: seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         437: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         437:           6: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         437:           6: Pass seq # exp(01)  got(01)
+#         447: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         447:           6: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+#         447:           6: Pass Seq # exp(01)  got(01)
+#         457: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         457:           6: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         457:           6: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         467: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         467:           6: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail         467:           6: seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         477: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         477:           6: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         477:           6: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         487: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         487:           6: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail         487:           6: seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         497: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         497:           6: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         497:           6: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         507: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         507:           6: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail         507:           6: seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         517: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         517:           6: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         517:           6: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         527: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         527:           6: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail         527:           6: seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         537: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         537:           6: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         537:           6: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         547: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+# User's Turn
+#         549:           6: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         549:           6: Fail seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         551:           6: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         551:           6: Pass seq # exp(01)  got(01)
+#         553:           6: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         553:           6: Pass seq # exp(01)  got(01)
+#         555:           6: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         555:           6: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         557:           6: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#         557:           6: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         559:           6: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         559:           6: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         561:           6: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         561:           6: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         563:           6: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         563:           6: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         565:           6: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#         565:           6: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         567:           6: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         567:           6: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         569:           6: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         569:           6: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         571:           6: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         571:           6: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+# Simon's Turn
+#         572:           7: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         582: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         582:           7: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         592: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         592:           7: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail         592:           7: seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         602: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         602:           7: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         602:           7: Pass seq # exp(01)  got(01)
+#         612: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         612:           7: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+#         612:           7: Pass Seq # exp(01)  got(01)
+#         622: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         622:           7: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         622:           7: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         632: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         632:           7: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail         632:           7: seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         642: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         642:           7: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         642:           7: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         652: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         652:           7: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail         652:           7: seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         662: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         662:           7: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         662:           7: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         672: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         672:           7: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail         672:           7: seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         682: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         682:           7: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         682:           7: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         692: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         692:           7: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail         692:           7: seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         702: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         702:           7: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         702:           7: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         712: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         712:           7: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail         712:           7: seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         722: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         722:           7: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         722:           7: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         732: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+# User's Turn
+#         734:           7: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         734:           7: Fail seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         736:           7: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         736:           7: Pass seq # exp(01)  got(01)
+#         738:           7: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         738:           7: Pass seq # exp(01)  got(01)
+#         740:           7: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         740:           7: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         742:           7: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#         742:           7: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         744:           7: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         744:           7: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         746:           7: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         746:           7: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         748:           7: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         748:           7: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         750:           7: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#         750:           7: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         752:           7: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         752:           7: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         754:           7: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         754:           7: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         756:           7: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         756:           7: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         758:           7: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#         758:           7: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         760:           7: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         760:           7: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+# Simon's Turn
+#         761:           8: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         771: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         771:           8: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         781: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         781:           8: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail         781:           8: seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         791: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         791:           8: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         791:           8: Pass seq # exp(01)  got(01)
+#         801: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         801:           8: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+#         801:           8: Pass Seq # exp(01)  got(01)
+#         811: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         811:           8: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         811:           8: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         821: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         821:           8: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail         821:           8: seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         831: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         831:           8: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         831:           8: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         841: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         841:           8: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail         841:           8: seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         851: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         851:           8: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         851:           8: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         861: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         861:           8: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail         861:           8: seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         871: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         871:           8: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         871:           8: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         881: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         881:           8: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail         881:           8: seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         891: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         891:           8: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         891:           8: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         901: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         901:           8: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail         901:           8: seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         911: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         911:           8: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         911:           8: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         921: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         921:           8: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail         921:           8: seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         931: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         931:           8: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         931:           8: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         941: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+# User's Turn
+#         943:           8: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         943:           8: Fail seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         945:           8: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         945:           8: Pass seq # exp(01)  got(01)
+#         947:           8: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         947:           8: Pass seq # exp(01)  got(01)
+#         949:           8: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         949:           8: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         951:           8: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#         951:           8: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         953:           8: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         953:           8: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         955:           8: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         955:           8: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         957:           8: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         957:           8: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         959:           8: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#         959:           8: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         961:           8: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         961:           8: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         963:           8: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#         963:           8: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         965:           8: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         965:           8: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         967:           8: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#         967:           8: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         969:           8: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         969:           8: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         971:           8: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#         971:           8: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         973:           8: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#         973:           8: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+# Simon's Turn
+#         974:           9: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         984: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         984:           9: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#         994: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#         994:           9: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail         994:           9: seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1004: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1004:           9: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1004:           9: Pass seq # exp(01)  got(01)
+#        1014: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1014:           9: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+#        1014:           9: Pass Seq # exp(01)  got(01)
+#        1024: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1024:           9: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1024:           9: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1034: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1034:           9: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1034:           9: seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1044: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1044:           9: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1044:           9: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1054: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1054:           9: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        1054:           9: seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1064: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1064:           9: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1064:           9: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1074: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1074:           9: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1074:           9: seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1084: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1084:           9: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1084:           9: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1094: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1094:           9: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        1094:           9: seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1104: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1104:           9: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1104:           9: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1114: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1114:           9: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1114:           9: seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1124: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1124:           9: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1124:           9: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1134: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1134:           9: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1134:           9: seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1144: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1144:           9: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1144:           9: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1154: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1154:           9: Fail ExpectOne [_ _ _ _ _ _ # _ _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1154:           9: seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1164: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1164:           9: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1164:           9: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1174: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+# User's Turn
+#        1176:           9: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        1176:           9: Fail seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1178:           9: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1178:           9: Pass seq # exp(01)  got(01)
+#        1180:           9: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        1180:           9: Pass seq # exp(01)  got(01)
+#        1182:           9: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1182:           9: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1184:           9: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        1184:           9: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1186:           9: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1186:           9: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1188:           9: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        1188:           9: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1190:           9: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1190:           9: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1192:           9: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#        1192:           9: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1194:           9: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1194:           9: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1196:           9: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        1196:           9: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1198:           9: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1198:           9: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1200:           9: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        1200:           9: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1202:           9: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1202:           9: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1204:           9: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        1204:           9: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1206:           9: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1206:           9: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1208:           9: Fail checkUser LEDs [# _ _ _ _ _ # _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1208:           9: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1210:           9: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1210:           9: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+# Simon's Turn
+#        1211:          10: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1221: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1221:          10: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1231: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1231:          10: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        1231:          10: seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1241: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1241:          10: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1241:          10: Pass seq # exp(01)  got(01)
+#        1251: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1251:          10: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+#        1251:          10: Pass Seq # exp(01)  got(01)
+#        1261: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1261:          10: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1261:          10: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1271: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1271:          10: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1271:          10: seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1281: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1281:          10: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1281:          10: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1291: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1291:          10: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        1291:          10: seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1301: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1301:          10: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1301:          10: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1311: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1311:          10: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1311:          10: seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1321: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1321:          10: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1321:          10: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1331: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1331:          10: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        1331:          10: seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1341: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1341:          10: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1341:          10: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1351: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1351:          10: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1351:          10: seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1361: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1361:          10: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1361:          10: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1371: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1371:          10: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1371:          10: seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1381: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1381:          10: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1381:          10: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1391: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1391:          10: Fail ExpectOne [_ _ _ _ _ _ # _ _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1391:          10: seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1401: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1401:          10: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1401:          10: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1411: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1411:          10: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1411:          10: seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1421: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1421:          10: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1421:          10: Fail seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1431: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+# User's Turn
+#        1433:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        1433:          10: Fail seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1435:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1435:          10: Pass seq # exp(01)  got(01)
+#        1437:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        1437:          10: Pass seq # exp(01)  got(01)
+#        1439:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1439:          10: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1441:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        1441:          10: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1443:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1443:          10: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1445:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        1445:          10: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1447:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1447:          10: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1449:          10: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#        1449:          10: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1451:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1451:          10: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1453:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        1453:          10: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1455:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1455:          10: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1457:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        1457:          10: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1459:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1459:          10: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1461:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        1461:          10: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1463:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1463:          10: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1465:          10: Fail checkUser LEDs [# _ _ _ _ _ # _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1465:          10: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1467:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1467:          10: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1469:          10: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#        1469:          10: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1471:          10: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1471:          10: Fail seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+# Simon's Turn
+#        1472:          11: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1482: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1482:          11: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1492: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1492:          11: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        1492:          11: seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1502: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1502:          11: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1502:          11: Pass seq # exp(01)  got(01)
+#        1512: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1512:          11: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+#        1512:          11: Pass Seq # exp(01)  got(01)
+#        1522: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1522:          11: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1522:          11: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1532: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1532:          11: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1532:          11: seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1542: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1542:          11: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1542:          11: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1552: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1552:          11: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        1552:          11: seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1562: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1562:          11: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1562:          11: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1572: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1572:          11: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1572:          11: seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1582: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1582:          11: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1582:          11: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1592: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1592:          11: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        1592:          11: seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1602: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1602:          11: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1602:          11: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1612: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1612:          11: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1612:          11: seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1622: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1622:          11: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1622:          11: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1632: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1632:          11: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1632:          11: seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1642: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1642:          11: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1642:          11: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1652: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1652:          11: Fail ExpectOne [_ _ _ _ _ _ # _ _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1652:          11: seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1662: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1662:          11: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1662:          11: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1672: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1672:          11: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1672:          11: seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1682: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1682:          11: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1682:          11: Fail seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1692: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1692:          11: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1692:          11: seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1702: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1702:          11: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1702:          11: Fail seq # exp(0b)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1712: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+# User's Turn
+#        1714:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        1714:          11: Fail seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1716:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1716:          11: Pass seq # exp(01)  got(01)
+#        1718:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        1718:          11: Pass seq # exp(01)  got(01)
+#        1720:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1720:          11: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1722:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        1722:          11: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1724:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1724:          11: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1726:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        1726:          11: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1728:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1728:          11: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1730:          11: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#        1730:          11: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1732:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1732:          11: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1734:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        1734:          11: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1736:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1736:          11: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1738:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        1738:          11: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1740:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1740:          11: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1742:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        1742:          11: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1744:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1744:          11: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1746:          11: Fail checkUser LEDs [# _ _ _ _ _ # _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1746:          11: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1748:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1748:          11: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1750:          11: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#        1750:          11: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1752:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1752:          11: Fail seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1754:          11: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#        1754:          11: Fail seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1756:          11: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1756:          11: Fail seq # exp(0b)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+# Simon's Turn
+#        1757:          12: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1767: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1767:          12: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1777: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1777:          12: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        1777:          12: seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1787: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1787:          12: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1787:          12: Pass seq # exp(01)  got(01)
+#        1797: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1797:          12: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+#        1797:          12: Pass Seq # exp(01)  got(01)
+#        1807: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1807:          12: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1807:          12: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1817: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1817:          12: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1817:          12: seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1827: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1827:          12: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1827:          12: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1837: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1837:          12: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        1837:          12: seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1847: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1847:          12: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1847:          12: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1857: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1857:          12: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1857:          12: seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1867: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1867:          12: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1867:          12: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1877: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1877:          12: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        1877:          12: seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1887: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1887:          12: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1887:          12: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1897: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1897:          12: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1897:          12: seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1907: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1907:          12: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1907:          12: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1917: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1917:          12: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1917:          12: seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1927: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1927:          12: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1927:          12: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1937: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1937:          12: Fail ExpectOne [_ _ _ _ _ _ # _ _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1937:          12: seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1947: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1947:          12: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1947:          12: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1957: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1957:          12: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1957:          12: seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1967: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1967:          12: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1967:          12: Fail seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1977: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1977:          12: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        1977:          12: seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1987: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1987:          12: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        1987:          12: Fail seq # exp(0b)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        1997: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        1997:          12: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        1997:          12: seq # exp(0b)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2007: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2007:          12: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2007:          12: Fail seq # exp(0c)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2017: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+# User's Turn
+#        2019:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2019:          12: Fail seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2021:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2021:          12: Pass seq # exp(01)  got(01)
+#        2023:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2023:          12: Pass seq # exp(01)  got(01)
+#        2025:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2025:          12: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2027:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        2027:          12: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2029:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2029:          12: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2031:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2031:          12: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2033:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2033:          12: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2035:          12: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#        2035:          12: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2037:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2037:          12: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2039:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2039:          12: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2041:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2041:          12: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2043:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        2043:          12: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2045:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2045:          12: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2047:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        2047:          12: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2049:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2049:          12: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2051:          12: Fail checkUser LEDs [# _ _ _ _ _ # _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2051:          12: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2053:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2053:          12: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2055:          12: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#        2055:          12: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2057:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2057:          12: Fail seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2059:          12: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#        2059:          12: Fail seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2061:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2061:          12: Fail seq # exp(0b)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2063:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2063:          12: Fail seq # exp(0b)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2065:          12: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2065:          12: Fail seq # exp(0c)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+# Simon's Turn
+#        2066:          13: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2076: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2076:          13: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2086: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2086:          13: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        2086:          13: seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2096: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2096:          13: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2096:          13: Pass seq # exp(01)  got(01)
+#        2106: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2106:          13: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+#        2106:          13: Pass Seq # exp(01)  got(01)
+#        2116: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2116:          13: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2116:          13: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2126: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2126:          13: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2126:          13: seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2136: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2136:          13: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2136:          13: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2146: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2146:          13: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        2146:          13: seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2156: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2156:          13: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2156:          13: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2166: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2166:          13: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2166:          13: seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2176: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2176:          13: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2176:          13: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2186: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2186:          13: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        2186:          13: seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2196: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2196:          13: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2196:          13: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2206: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2206:          13: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2206:          13: seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2216: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2216:          13: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2216:          13: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2226: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2226:          13: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2226:          13: seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2236: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2236:          13: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2236:          13: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2246: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2246:          13: Fail ExpectOne [_ _ _ _ _ _ # _ _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2246:          13: seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2256: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2256:          13: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2256:          13: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2266: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2266:          13: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2266:          13: seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2276: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2276:          13: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2276:          13: Fail seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2286: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2286:          13: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2286:          13: seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2296: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2296:          13: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2296:          13: Fail seq # exp(0b)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2306: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2306:          13: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        2306:          13: seq # exp(0b)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2316: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2316:          13: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2316:          13: Fail seq # exp(0c)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2326: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2326:          13: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2326:          13: seq # exp(0c)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2336: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2336:          13: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2336:          13: Fail seq # exp(0d)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2346: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+# User's Turn
+#        2348:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2348:          13: Fail seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2350:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2350:          13: Pass seq # exp(01)  got(01)
+#        2352:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2352:          13: Pass seq # exp(01)  got(01)
+#        2354:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2354:          13: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2356:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        2356:          13: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2358:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2358:          13: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2360:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2360:          13: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2362:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2362:          13: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2364:          13: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#        2364:          13: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2366:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2366:          13: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2368:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2368:          13: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2370:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2370:          13: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2372:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        2372:          13: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2374:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2374:          13: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2376:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        2376:          13: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2378:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2378:          13: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2380:          13: Fail checkUser LEDs [# _ _ _ _ _ # _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2380:          13: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2382:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2382:          13: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2384:          13: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#        2384:          13: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2386:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2386:          13: Fail seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2388:          13: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#        2388:          13: Fail seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2390:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2390:          13: Fail seq # exp(0b)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2392:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2392:          13: Fail seq # exp(0b)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2394:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2394:          13: Fail seq # exp(0c)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2396:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        2396:          13: Fail seq # exp(0c)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2398:          13: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2398:          13: Fail seq # exp(0d)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+# Simon's Turn
+#        2399:          14: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2409: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2409:          14: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2419: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2419:          14: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        2419:          14: seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2429: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2429:          14: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2429:          14: Pass seq # exp(01)  got(01)
+#        2439: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2439:          14: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+#        2439:          14: Pass Seq # exp(01)  got(01)
+#        2449: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2449:          14: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2449:          14: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2459: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2459:          14: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2459:          14: seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2469: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2469:          14: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2469:          14: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2479: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2479:          14: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        2479:          14: seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2489: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2489:          14: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2489:          14: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2499: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2499:          14: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2499:          14: seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2509: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2509:          14: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2509:          14: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2519: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2519:          14: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        2519:          14: seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2529: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2529:          14: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2529:          14: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2539: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2539:          14: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2539:          14: seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2549: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2549:          14: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2549:          14: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2559: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2559:          14: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2559:          14: seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2569: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2569:          14: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2569:          14: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2579: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2579:          14: Fail ExpectOne [_ _ _ _ _ _ # _ _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2579:          14: seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2589: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2589:          14: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2589:          14: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2599: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2599:          14: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2599:          14: seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2609: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2609:          14: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2609:          14: Fail seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2619: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2619:          14: Fail ExpectOne [_ _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2619:          14: seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2629: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2629:          14: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2629:          14: Fail seq # exp(0b)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2639: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2639:          14: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        2639:          14: seq # exp(0b)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2649: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2649:          14: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2649:          14: Fail seq # exp(0c)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2659: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2659:          14: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2659:          14: seq # exp(0c)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2669: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2669:          14: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2669:          14: Fail seq # exp(0d)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2679: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2679:          14: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        2679:          14: seq # exp(0d)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2689: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2689:          14: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2689:          14: Fail seq # exp(0e)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2699: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+# User's Turn
+#        2701:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2701:          14: Fail seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2703:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2703:          14: Pass seq # exp(01)  got(01)
+#        2705:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2705:          14: Pass seq # exp(01)  got(01)
+#        2707:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2707:          14: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2709:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        2709:          14: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2711:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2711:          14: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2713:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2713:          14: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2715:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2715:          14: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2717:          14: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#        2717:          14: Fail seq # exp(04)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2719:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2719:          14: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2721:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2721:          14: Fail seq # exp(05)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2723:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2723:          14: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2725:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        2725:          14: Fail seq # exp(06)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2727:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2727:          14: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2729:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        2729:          14: Fail seq # exp(07)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2731:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2731:          14: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2733:          14: Fail checkUser LEDs [# _ _ _ _ _ # _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2733:          14: Fail seq # exp(08)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2735:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2735:          14: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2737:          14: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#        2737:          14: Fail seq # exp(09)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2739:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2739:          14: Fail seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2741:          14: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#        2741:          14: Fail seq # exp(0a)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2743:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2743:          14: Fail seq # exp(0b)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2745:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2745:          14: Fail seq # exp(0b)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2747:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2747:          14: Fail seq # exp(0c)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2749:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #](got)
+#        2749:          14: Fail seq # exp(0c)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2751:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2751:          14: Fail seq # exp(0d)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2753:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2753:          14: Fail seq # exp(0d)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2755:          14: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2755:          14: Fail seq # exp(0e)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+# 
+# ***** test           2 - testb - bad user input maxSeq = 0x04
+# 
+#        2763:           1: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _    _        _   _  
+#     | |  | |      | | | | 
+#     |_|  |_|      |_| |_| 
+#        2767:           1: Pass ExpectBlank [_ _ _ _ _ _ _ _ _ _] = [_ _ _ _ _ _ _ _ _ _]
+#      _    _        _   _  
+#     | |  | |      | | | | 
+#     |_|  |_|      |_| |_| 
+#        2769:           1: Pass ExpectOne   [_ _ _ _ _ _ _ _ _ #] = [_ _ _ _ _ _ _ _ _ #]
+#        2769:           1: Pass Seq # exp(00)  got(00)
+#        2773:           1: Pass ExpectBlank [_ _ _ _ _ _ _ _ _ _] = [_ _ _ _ _ _ _ _ _ _]
+#        2773:           1: Pass seq # exp(01)  got(01)
+#        2777:           1: Pass checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [# _ _ _ _ _ _ _ _ #](got)
+#        2777:           1: Pass seq # exp(00)  got(00)
+#        2779:           1: Pass checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [# _ _ _ _ _ _ _ _ _](got)
+#        2779:           1: Pass seq # exp(01)  got(01)
+#        2781:           2: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _             _   _  
+#     | |    |      | | | | 
+#     |_|    |      |_| |_| 
+#        2785:           2: Pass ExpectBlank [_ _ _ _ _ _ _ _ _ _] = [_ _ _ _ _ _ _ _ _ _]
+#      _             _   _  
+#     | |    |      | | | | 
+#     |_|    |      |_| |_| 
+#        2787:           2: Pass ExpectOne   [_ _ _ _ _ _ _ _ _ #] = [_ _ _ _ _ _ _ _ _ #]
+#        2787:           2: Pass Seq # exp(00)  got(00)
+#        2793:           2: Pass ExpectBlank [_ _ _ _ _ _ _ _ _ _] = [_ _ _ _ _ _ _ _ _ _]
+#        2793:           2: Pass seq # exp(01)  got(01)
+#        2795:           2: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ _ _ _ _ _ _ _ # _] (got)
+#        2795:           2: Pass Seq # exp(01)  got(01)
+#        2799:           2: Pass ExpectBlank [_ _ _ _ _ _ _ _ _ _] = [_ _ _ _ _ _ _ _ _ _]
+#        2799:           2: Pass seq # exp(02)  got(02)
+#        2803:           2: Pass checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [# _ _ _ _ _ _ _ _ #](got)
+#        2803:           2: Pass seq # exp(00)  got(00)
+#        2805:           2: Pass checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [# _ _ _ _ _ _ _ _ _](got)
+#        2805:           2: Pass seq # exp(01)  got(01)
+#        2807:           2: Pass checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [# _ _ _ _ _ _ _ _ #](got)
+#        2807:           2: Pass seq # exp(01)  got(01)
+#        2809:           2: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2809:           2: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2811:           3: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2821: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2821:           3: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2831: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2831:           3: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+# Fail        2831:           3: seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2841: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2841:           3: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2841:           3: Pass seq # exp(01)  got(01)
+#        2851: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2851:           3: Fail ExpectOne [_ _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #] (got)
+#        2851:           3: Pass Seq # exp(01)  got(01)
+#        2861: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2861:           3: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2861:           3: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2871: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2871:           3: Fail ExpectOne [_ _ _ _ _ _ _ _ # _](exp) = [_ # # # # # # # # #] (got)
+# Fail        2871:           3: seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2881: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2881:           3: Fail ExpectBlank [_ _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2881:           3: Fail seq # exp(03)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2891: Failed waiting for change dutLEDs = [_ # # # # # # # # #]
+#        2893:           3: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2893:           3: Fail seq # exp(00)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2895:           3: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2895:           3: Pass seq # exp(01)  got(01)
+#        2897:           3: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ #](exp) = [_ # # # # # # # # #](got)
+#        2897:           3: Pass seq # exp(01)  got(01)
+#        2899:           3: Fail checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [_ # # # # # # # # #](got)
+#        2899:           3: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2901:           3: Fail checkUser LEDs [# _ _ _ _ _ _ # _ _](exp) = [_ # # # # # # # # #](got)
+#        2901:           3: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+#        2903:           3: Pass checkUser LEDs [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#        2903:           3: Fail seq # exp(02)  got(01)
+#      _    _        _      
+# |_| | |   _|      | |   | 
+# | | |_|  |_       |_|   | 
+# 
+# ***** test           3 testc - user timeout maxSeq = 0x02
+#        2911:           1: Pass ExpectFlash [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#      _    _        _   _  
+#     | |  | |      | | | | 
+#     |_|  |_|      |_| |_| 
+#        2915:           1: Pass ExpectBlank [_ _ _ _ _ _ _ _ _ _] = [_ _ _ _ _ _ _ _ _ _]
+#      _    _        _   _  
+#     | |  | |      | | | | 
+#     |_|  |_|      |_| |_| 
+#        2917:           1: Pass ExpectOne   [_ _ _ _ _ _ _ _ _ #] = [_ _ _ _ _ _ _ _ _ #]
+#        2917:           1: Pass Seq # exp(00)  got(00)
+#        2921:           1: Pass ExpectBlank [_ _ _ _ _ _ _ _ _ _] = [_ _ _ _ _ _ _ _ _ _]
+#        2921:           1: Pass seq # exp(01)  got(01)
+#        2925:           1: Pass checkUser LEDs [# _ _ _ _ _ _ _ _ _](exp) = [# _ _ _ _ _ _ _ _ _](got)
+#        2925:           1: Pass seq # exp(00)  got(00)
+#        2947:           1: Pass checkUser LEDs [_ # # # # # # # # #](exp) = [_ # # # # # # # # #](got)
+#        2947:           1: Pass seq # exp(00)  got(00)
+# ** Note: $finish    : C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv(218)
+#    Time: 59070 ps  Iteration: 1  Instance: /lab3_tb
+# 1
+# Break in Module lab3_tb at C:/Users/alcka/OneDrive/Desktop/UCSD Work Folder/CSE140L/lab3-starter/lab3_tb.sv line 218

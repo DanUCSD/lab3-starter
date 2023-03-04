@@ -130,9 +130,9 @@ module lab3 (
 	wire [7:0] rndVal;
    poly poly (
         .val(rndVal),
-        .seed({2'b0, SW[8:4], 1'b1}),
+        .seed({2'b0, SW[8:4], 1'b1}), // 8'b0000_0011          {2'b0, SW[8:4], 1'b1}
         // x8 + x6 + x5 + x4 + 1
-        .taps(8'b1011_1000),
+        .taps(8'b1011_1000),   // 
         .enab(rndSeqEn),
         .rst(rndSeqRst),
         .clk(clk));
